@@ -1,8 +1,16 @@
 aid: flyhomes
 name: FlyHomes
-description: FlyHomes is a company surfaced as a portfolio company of a16z, battery-ventures, norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Flyhomes is a Bellevue, Washington-based real estate and mortgage financial
+  technology company whose Buy Before You Sell platform lets homebuyers purchase
+  a new home before selling their existing one. Its products—Flyhomes Cash Offer,
+  Instant Equity, and Guaranteed Backup Contract—turn financing into competitive
+  cash-like offers, unlock home equity without requiring a prior sale, and reduce
+  a buyer's debt-to-income ratio so they can qualify for larger loans and move
+  only once. Flyhomes reaches homebuyers through a network of in-network loan
+  officers and real estate agents and also operates an AI-powered home search
+  portal. Flyhomes does not currently publish a public developer API; this profile
+  captures its identity, discovery surface (llms.txt), and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/flyhomes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +20,30 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://flyhomes.com/fh-favicon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Real Estate
+- Proptech
+- Mortgage
+- Lending
+- Fintech
+- Financial Services
+- Home Buying
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,20 @@ maintainers:
 common:
 - type: Website
   url: https://flyhomes.com
+- type: Blog
+  url: https://www.flyhomes.com/blog/
+- type: Support
+  url: https://flyhomes.com/contact
+- type: TermsOfService
+  url: https://flyhomes.com/terms
+- type: PrivacyPolicy
+  url: https://flyhomes.com/privacy
+- type: LLMsTxt
+  url: llms/flyhomes-llms.txt
+- type: DomainSecurity
+  url: security/flyhomes-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
