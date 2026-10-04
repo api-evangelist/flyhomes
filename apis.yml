@@ -48,12 +48,12 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Mortgage
 - Lending
 - Fintech
-- Financial-Services
+- Financial Services
 - Home Buying
 tags_raw:
 - Company
@@ -64,6 +64,8 @@ tags_raw:
 - Fintech
 - Financial Services
 - Home Buying
+- Real-Estate
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
